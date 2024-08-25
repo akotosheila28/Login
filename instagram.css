@@ -1,0 +1,99 @@
+body {
+  background-color: #eee;
+  width: 80%;
+  height: 80vh;
+  margin-top: 5%;
+  }
+
+main {
+  background-color: #d7bfdc;
+  border: 1px solid black;
+  border-radius: 25px;
+  margin-left: 30%;
+  width: 50%;
+  height: 90%;
+  box-shadow: -6px -6px 10px #000,
+               6px 6px 10px #00000026;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  font-family: Proxima Nova, Neue Helvetica;
+  font-weight: 800;
+  font-style: italic;
+  padding: 0.5rem 0.2rem;
+  padding-top: 1rem;
+  font-size: 2em;
+  color: #000;
+  text-decoration: line-through;
+}
+
+div {
+  display: flex;
+  justify-content: center;
+  padding: 1rem 0.5rem;
+}
+
+#insta {
+  width: 350px;
+  padding: 0.2rem;
+  border-radius: 5px;
+  font-size: 1em;
+  box-shadow: -6px -6px 10px #eee,
+  6px 6px 10px #424242;
+}
+
+button {
+  width: 20%;
+  padding: 0.5rem;
+  font-weight: bold;
+  font-style: italic;
+  background-color: #efefef;
+  border-radius: 10px;
+  color: #424242;
+  box-shadow: -6px -6px 10px #eee,
+               6px 6px 10px #424242;
+}
+
+button:hover {
+  background-color:#fbad50;
+}
+
+a {
+  text-decoration: none;
+  font-weight: bold;
+  color: blueviolet;
+  font-style: italic;
+}
+
+#get {
+ display: flex;
+ justify-content: center;
+ border: 1px solid black;
+ width: 350px;
+ border-radius: 5px;
+ padding: 0.2rem;
+ margin-left: 20%;
+ background-color: #fff;
+ font-weight: bold;
+ box-shadow: -6px -6px 10px #eee,
+ 6px 6px 10px #424242;
+}
+
+
+.line {
+  padding: 0 20px;
+  font-weight: 700;
+}
+
+.before, .after {
+  border-top: 2px solid black;
+  flex-grow: 0.28;
+  margin-top: 20px;
+  border: 1px solid #efefef;
+  border-left: 0;
+  border-top: 0;
+  border-right: 0;
+}
